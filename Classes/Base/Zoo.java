@@ -16,6 +16,9 @@ public class Zoo {
         animals = new ArrayList<>();
     }
 
+    public int size(){
+        return animals.size();
+    }
 
     public void addAnimal(IAnimal animal){
         animals.add(animal);
