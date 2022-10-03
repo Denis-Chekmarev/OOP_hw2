@@ -10,8 +10,6 @@ import Classes.Wolf;
 import Classes.Base.Zoo;
 
 public class Program {
-    
-    // number - число, число в диапазоне 
 
     private static int getNumber(int start, int end, Scanner scan){
         int input;
@@ -29,6 +27,7 @@ public class Program {
         }
         return input;
     }
+
 
     public static void main(String[] args) {
         
@@ -127,7 +126,5 @@ public class Program {
         }
         in.close();
         System.out.printf("Program closing...\n");
-
-
     }
 }
